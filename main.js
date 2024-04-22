@@ -9,6 +9,9 @@ const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    setTimeout(()=>{
+    window.hideLoadingScreen();
+  }, 6000)
 
   
   async function start() {
@@ -161,9 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (o.userData.clickable) window.showLoadingScreen();
 
 
-  setTimeout(()=>{
-    window.hideLoadingScreen();
-  }, 6000)
+
 
         if (o.userData.clickable && o === logo_0ef6d9d7_cf260ef6d) {
           window.location.href = "https://wa.me/918175814482/?text=hi";
