@@ -8,12 +8,6 @@ import {
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener("DOMContentLoaded", () => {
-
-    setTimeout(()=>{
-    window.hideLoadingScreen();
-  }, 6000)
-
-  
   async function start() {
     const mindThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
@@ -162,9 +156,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (o.userData.clickable) window.showLoadingScreen();
-
-
-
 
         if (o.userData.clickable && o === logo_0ef6d9d7_cf260ef6d) {
           // window.open("https://wa.me/918175814482/?text=hi", "_blank");
