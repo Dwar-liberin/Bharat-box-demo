@@ -90,6 +90,9 @@
 
         function showLoadingScreen() {
             document.getElementById('loading-screen').style.display = 'flex';
+            setTimeout(() => {
+                window.hideLoadingScreen();
+            }, 3000);
         }
 
 

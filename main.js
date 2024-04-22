@@ -158,11 +158,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (o.userData.clickable) window.showLoadingScreen();
 
         if (o.userData.clickable && o === logo_0ef6d9d7_cf260ef6d) {
+          // window.open("https://wa.me/918175814482/?text=hi", "_blank");
           window.location.href = "https://wa.me/918175814482/?text=hi";
         }
 
         if (o.userData.clickable && o === logo_7e8f68ea_53367e8f6) {
-          window.location.href = "https://bharatbox.sandbox.game/";
+          window.open("https://bharatbox.sandbox.game/", "_blank");
+          // window.location.href = "https://bharatbox.sandbox.game/";
         }
 
         if (o.userData.clickable && o === logo_ac517925_7a2eac517) {
